@@ -21,7 +21,7 @@ exports = module.exports = create;
  * @type {function(): *}
  */
 
-function create(config) {
+function create(config = {}) {
     if (config.key && config.cert) {
         app = uws.SSLApp({
             key_file_name: opts.key,
