@@ -2,7 +2,7 @@
 Fast, express compatible http web server using uWebSockets.js
 
 ```js
-const mamba = require('@dreesq/mamba');
+const mamba = require('@makveli/mamba');
 
 const app = mamba();
 let i = 0;
