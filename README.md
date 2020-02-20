@@ -1,5 +1,11 @@
 # mamba
-Fast, express compatible http web server using uWebSockets.js
+Fast, api like express, http web server using uWebSockets.js
+
+Forked from https://github.com/dreesq/mamba, special thanks to dreesq https://github.com/dreesq
+I changed the original source to make it work for my requiriments, feel free to make a fork, pr, or open an issue, any suggestion is very wellcome. 
+
+Sincerely, Pedro Issa.
+
 
 ```js
 const mamba = require('@makveli/mamba');
